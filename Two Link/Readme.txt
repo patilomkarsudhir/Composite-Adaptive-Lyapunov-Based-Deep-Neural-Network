@@ -1,0 +1,1 @@
+To run the simulations, run 'Simulate.m'. For details on how the simulation is being performed, see DNNSim file. For details on Jacobian computation, see DNNGrad files. All other files are used as functions to run the simulation.

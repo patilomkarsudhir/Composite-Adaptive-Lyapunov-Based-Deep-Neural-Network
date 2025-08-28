@@ -1,0 +1,20 @@
+﻿# MATLAB autosave and backup files
+*.asv
+*.m~
+*.autosave
+
+# MATLAB compiled MEX files
+*.mex*
+
+# Simulink generated files
+slprj/
+*.slxc
+*.mdl.autosave
+*.slx.autosave
+
+# OS junk
+Thumbs.db
+.DS_Store
+
+# VS Code settings (optional)
+.vscode/
