@@ -1,6 +1,6 @@
 ﻿# Composite-Adaptive Lyapunov-Based Deep Neural Network Control 🚀
 
-Proveably-stable deep learning for nonlinear control. This repo implements composite adaptive control with a deep neural network regressor, evaluated on two classic benchmarks: a 2‑DOF twolink robot and a 6state underwater vehicle (UUV) with intermittent feedback.
+Provably-stable deep learning for nonlinear control. This repo implements composite adaptive control with a deep neural network regressor, evaluated on two classic benchmarks: a 2‑DOF twolink robot and a 6state underwater vehicle (UUV) with intermittent feedback.
 
 - Composite adaptation = tracking-error + prediction-error driven weight updates
 - Lyapunov-based stability with projection and adaptive gain updates
@@ -67,7 +67,8 @@ Noise robustness is included via SNR-based measurement noise; the UUV case also 
 - TwoLink: open Two Link/Simulate.m in MATLAB and click Run
 - UUV: open UUV/Simulate.m and click Run
 
-Optional: for reproducible random initializations, add ng(0) near the top of Simulate.m.
+Optional: for reproducible random initializations, add 
+ng(0) near the top of Simulate.m.
 
 Outputs include comparison plots and a small table of RMS metrics printed to the console.
 
@@ -101,4 +102,4 @@ If you use this code, please cite the repository. A paper citation will be added
 MIT  see LICENSE.
 
 ## Contact
-Open an issue or reach out at patilomkarsudhir@gmail.com.
+Open an issue or reach out at patilomkarsudhir@ufl.edu.
